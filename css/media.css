@@ -11,7 +11,7 @@
 @media (max-width: 960px){
     .header__menu{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;        
     }
     .tab-item__title{
         padding-left: 0;
@@ -50,6 +50,18 @@
 }
 
 @media (max-width: 768px){
+    .header{
+        height: 100px;
+    }
+    .header__container{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+    }
+    nav{
+        margin-top: 10px;
+        order: 1;
+    }
     .links__item{
         height: 100%;
         padding-left: 0;
@@ -110,13 +122,10 @@
     .comm-block__man{
         margin-left: 0px;
     }
-    .header__menu{
+    nav{
         display: none;
     }
     .header__logo{
         width: auto;
-    }
-    .header__container {
-        justify-content: space-around;
     }
 }
