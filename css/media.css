@@ -165,6 +165,12 @@
     .header__logo {
         width: auto;
     }
+    .header{
+        height: 70px;
+    }
+    .header__container{
+        padding-top: 10px;
+    }
 }
 
 @media (max-width: 320px){
